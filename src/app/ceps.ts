@@ -1,4 +1,4 @@
-export interface Product {
+export interface Cep {
   id: number;
   cep: string;
   logradouro: string;
@@ -7,7 +7,7 @@ export interface Product {
   uf: string;
 }
 
-export const products = [
+export const ceps = [
   {
     id: 1,
     cep: '60831220',
