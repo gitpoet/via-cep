@@ -1,28 +1,36 @@
 export interface Product {
   id: number;
-  name: string;
-  price: number;
-  description: string;
+  cep: string;
+  logradouro: string;
+  cidade: string;
+  bairro: string;
+  uf: string;
 }
 
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    cep: '60831220',
+    logradouro: 'rua santa isabel',
+    cidade: 'fortaleza',
+    bairro: 'lagoa redonda',
+    uf: 'ceará'
   },
   {
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    cep: '60831078',
+    logradouro: 'galdencio moreira',
+    cidade: 'fortaleza',
+    bairro:'lagoa redonda',
+    uf: 'ceará'
   },
   {
     id: 3,
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    cep: '60822-570',
+    logradouro: 'josé alves cavalcante',
+    cidade: 'fortaleza',
+    bairro:'cidade dos funcionários',
+    uf: 'ceará'
   }
 ];
 
