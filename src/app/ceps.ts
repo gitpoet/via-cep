@@ -5,7 +5,6 @@ export interface Cep {
   complemento: string;
   bairro: string;
   localidade: string;
- 
   uf: string;
 }
 
@@ -36,7 +35,6 @@ export const ceps = [
     complemento: '',
     bairro:'cidade dos funcionários',
     cidade: 'fortaleza',
-   
     uf: 'ceará'
   }
 ];
