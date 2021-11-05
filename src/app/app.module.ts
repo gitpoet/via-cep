@@ -8,10 +8,12 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 //import { CepListComponent } from './cep-list/cep-list.component';
 import { HomePageComponent } from './home/home.component';
 import { CepComponent } from './cep/cep.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
