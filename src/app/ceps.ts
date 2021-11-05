@@ -26,7 +26,7 @@ export const ceps = [
   },
   {
     id: 3,
-    cep: '60822-570',
+    cep: '60822570',
     logradouro: 'josé alves cavalcante',
     cidade: 'fortaleza',
     bairro:'cidade dos funcionários',
