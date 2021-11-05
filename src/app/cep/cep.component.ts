@@ -22,7 +22,7 @@ export class CepComponent implements OnInit {
     
     //this.cep = ceps.find((cep) => cep.cep === numeroCepFromRoute);
     this.viacepService.getCep(numeroCepFromRoute).subscribe(
-
+      cep => this.cep = cep
     );
 
 
