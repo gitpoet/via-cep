@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Cep, ceps } from '../ceps';
+import { ViacepService } from '../viacep.service';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { Cep, ceps } from '../ceps';
 export class CepComponent implements OnInit {
   cep: Cep | undefined;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute,  private viacepService: ViacepService) {}
 
   ngOnInit() {
    
