@@ -3,8 +3,9 @@ export interface Cep {
   cep: string;
   logradouro: string;
   complemento: string;
-  localidade: string;
   bairro: string;
+  localidade: string;
+ 
   uf: string;
 }
 
@@ -14,8 +15,9 @@ export const ceps = [
     cep: '60831220',
     logradouro: 'rua santa isabel',
     complemento: '',
-    localidade: 'fortaleza',
     bairro: 'lagoa redonda',
+    localidade: 'fortaleza',
+   
     uf: 'ceará'
   },
   {
@@ -23,8 +25,8 @@ export const ceps = [
     cep: '60831078',
     logradouro: 'galdencio moreira',
     complemento: '',
+    bairro: 'lagoa redonda',
     localidade: 'fortaleza',
-    bairro:'lagoa redonda',
     uf: 'ceará'
   },
   {
@@ -32,8 +34,9 @@ export const ceps = [
     cep: '60822570',
     logradouro: 'josé alves cavalcante',
     complemento: '',
-    cidade: 'fortaleza',
     bairro:'cidade dos funcionários',
+    cidade: 'fortaleza',
+   
     uf: 'ceará'
   }
 ];
